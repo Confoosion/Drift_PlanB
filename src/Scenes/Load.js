@@ -10,8 +10,8 @@ class Load extends Phaser.Scene {
         this.load.image("track_tiles", "spritesheet_tiles.png");
         this.load.tilemapTiledJSON("tutorial_track", "tutorialTrack.tmj");
         this.load.tilemapTiledJSON("track1", "level1Track.tmj");
-        this.load.tilemapTiledJSON("track2", "level2Track.tmj");
-        this.load.tilemapTiledJSON("track3", "level3Track.tmj");
+        this.load.tilemapTiledJSON("track2", "Level2Track.tmj");
+        this.load.tilemapTiledJSON("track3", "Level3Track.tmj");
 
         this.load.image("yellowCar", "car_yellow_1.png");
 
@@ -19,7 +19,7 @@ class Load extends Phaser.Scene {
             frameWidth: 128,
             frameHeight: 128
         });
-        
+
         this.load.audio("countdown", "raceStart.mp3");
         this.load.audio("engine", "car-engine-idle-sonic-bat-1-00-21.mp3");
         this.load.audio("boost", "speedBoost.mp3");
