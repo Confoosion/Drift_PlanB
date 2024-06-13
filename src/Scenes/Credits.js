@@ -26,14 +26,14 @@ class Credits extends Phaser.Scene {
         });
 
         // single-player
-        const jakeText = this.add.text(500, 175, 'main mechanics (implemention of unique player movement)', {
+        const jakeText = this.add.text(610, 175, 'main mechanics (implemention of unique player movement)', {
             fontSize: '30px',
             fill: 'lightgrey',
             fontFamily: 'fantasy'
         }).setOrigin(0.5);
 
         // single-player
-        const calText = this.add.text(610, 270, 'game logic (implementation of game)', {
+        const calText = this.add.text(500, 270, 'game logic (implementation of game)', {
             fontSize: '30px',
             fill: 'lightgrey',
             fontFamily: 'fantasy'
