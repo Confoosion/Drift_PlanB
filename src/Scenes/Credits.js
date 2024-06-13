@@ -6,45 +6,45 @@ class Credits extends Phaser.Scene {
 
     preload() {
         this.load.setPath("./assets/");
-        this.load.image("background", "background.png");
+        this.load.image("credits", "credits.png");
     }
 
     create()
     {
         let my = this.my;
-        my.background = this.add.image(600,500, "background");
+        my.background = this.add.image(600,500, "credits");
 
         // single-player
-        const singlePlayerText = this.add.text(300, 430, 'Start Game', {
-            fontSize: '45px',
+        const backToMenuText = this.add.text(640, 450, 'Main Menu', {
+            fontSize: '40px',
             fill: '#ffffff',
             fontFamily: 'fantasy'
         }).setOrigin(0.5);
-        singlePlayerText.setInteractive();
-        singlePlayerText.on('pointerdown', () => {
-            this.scene.start('DriftTrack');
+        backToMenuText.setInteractive();
+        backToMenuText.on('pointerdown', () => {
+            this.scene.start('StartMenu');
         });
 
-        // tutorial?
-        const tutorialText = this.add.text(600, 430, 'Tutorial', {
-            fontSize: '45px',
-            fill: '#ffffff',
+        // single-player
+        const jakeText = this.add.text(500, 175, 'main mechanics (implementation of game)', {
+            fontSize: '30px',
+            fill: 'lightgrey',
             fontFamily: 'fantasy'
         }).setOrigin(0.5);
-        tutorialText.setInteractive();
-        tutorialText.on('pointerdown', () => {
-            this.scene.start('Drift_Tutorial');
-        });
 
-        // credits
-        const creditsText = this.add.text(900, 430, 'Credits', {
-            fontSize: '45px',
-            fill: '#ffffff',
+        // single-player
+        const calText = this.add.text(610, 270, 'game logic (implemention of unique player movement)', {
+            fontSize: '30px',
+            fill: 'lightgrey',
             fontFamily: 'fantasy'
         }).setOrigin(0.5);
-        multiplayerText.setInteractive();
-        multiplayerText.on('pointerdown', () => {
-            this.scene.start('DriftTrack');
-        });
+
+        // single-player
+        const andreaText = this.add.text(650, 370, 'visual assets, credit + menu scene, intro mechanics', {
+            fontSize: '30px',
+            fill: 'lightgrey',
+            fontFamily: 'fantasy'
+        }).setOrigin(0.5);
+
     }
 }
