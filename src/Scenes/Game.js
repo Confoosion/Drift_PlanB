@@ -67,6 +67,7 @@ class Game extends Phaser.Scene {
                 if(this.lap == 4)
                 {
                     this.finished = true;
+                    this.sound.stopByKey("engine");
                 }
                 else
                 {
