@@ -78,7 +78,10 @@ class Game extends Phaser.Scene {
         });
 
         cursors = this.input.keyboard.createCursorKeys();
-        // this.cameras.main.setZoom(0.);
+        this.sound.play("engine", {
+            loop: true,
+            rate: 1.25
+        });
     }
 
     update()
@@ -109,5 +112,18 @@ class Game extends Phaser.Scene {
 
         my.sprite.player.body.velocity.x = this.velocity * Math.cos((my.sprite.player.angle-90)*0.01745);
         my.sprite.player.body.velocity.y = this.velocity * Math.sin((my.sprite.player.angle-90)*0.01745);
+
+        if(this.finished)
+        {
+            const returnText = this.add.text(600, 300, 'Return to Main Menu', {
+                fontSize: '45px',
+                fill: '#ffffff',
+                fontFamily: 'fantasy'
+            }).setOrigin(0.5);
+            returnText.setInteractive();
+            returnText.on('pointerdown', () => {
+                this.scene.start('StartMenu');
+            });
+        }
     }
 }
