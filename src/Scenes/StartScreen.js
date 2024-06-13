@@ -42,8 +42,8 @@ class StartMenu extends Phaser.Scene {
             fill: '#ffffff',
             fontFamily: 'fantasy'
         }).setOrigin(0.5);
-        multiplayerText.setInteractive();
-        multiplayerText.on('pointerdown', () => {
+        creditsText.setInteractive();
+        creditsText.on('pointerdown', () => {
             this.scene.start('Credits');
         });
     }
