@@ -19,6 +19,13 @@ class Load extends Phaser.Scene {
             frameWidth: 128,
             frameHeight: 128
         });
+        
+        this.load.audio("countdown", "raceStart.mp3");
+        this.load.audio("engine", "car-engine-idle-sonic-bat-1-00-21.mp3");
+        this.load.audio("boost", "speedBoost.mp3");
+        this.load.audio("bgm", "groovy-ambient-funk-201745.mp3");
+        this.load.audio("lap", "system-notification-199277.mp3");
+        this.load.audio("yay", "yay2-86405.mp3");
     }
 
     create() {
