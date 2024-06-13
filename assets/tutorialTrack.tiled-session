@@ -1,0 +1,104 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 0.5047
+        },
+        "Level2Track.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
+            "scale": 0.6502,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1900.953552752999,
+                "y": 918.9480159950783
+            }
+        },
+        "Level2Track.tmx#trackTileset": {
+            "scaleInDock": 0.3837
+        },
+        "Level2Track.tmx#wallTileset": {
+            "scaleInDock": 0.5002
+        },
+        "Level3Track.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
+            "scale": 0.4906,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 350.59111292295154,
+                "y": 1134.3253159396659
+            }
+        },
+        "Level3Track.tmx#trackTileset": {
+            "scaleInDock": 0.4182
+        },
+        "Level3Track.tmx#wallTileset": {
+            "scaleInDock": 0.4631
+        },
+        "level1Track.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
+            "scale": 0.54,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1083.3333333333333,
+                "y": 945.3703703703702
+            }
+        },
+        "level1Track.tmx#trackTileset": {
+            "scaleInDock": 0.5393
+        },
+        "level1Track.tmx#wallTileset": {
+            "scaleInDock": 0.2841
+        },
+        "tutorialTrack.tmx": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 0.52,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 630.7692307692307,
+                "y": 552.8846153846154
+            }
+        },
+        "tutorialTrack.tmx#trackTileset": {
+            "scaleInDock": 0.2441
+        },
+        "tutorialTrack.tmx#wallTileset": {
+            "scaleInDock": 0.5601
+        }
+    },
+    "last.exportedFilePath": "/Users/jsales/CMPM120/RacingGame_Drift/assets",
+    "last.imagePath": "/Users/jsales/CMPM120/RacingGame_Drift/assets",
+    "lastUsedTilesetExportFilter": "Tiled tileset files (*.tsx *.xml)",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 40,
+    "openFiles": [
+    ],
+    "project": "tutorialTrack.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 64
+    }
+}
