@@ -19,6 +19,12 @@ class Game extends Phaser.Scene {
 
     create()
     {
+        this.velocity = 0;
+        this.checkpointsHit = 0;
+        this.TOTAL_LAPS = 4;
+        this.lap = 1;
+        this.finished = false;
+        
         this.map = this.add.tilemap("tutorial_track", this.TILESIZE, this.TILESIZE, this.TILEHEIGHT, this.TILEWIDTH);
 
         this.tileset = this.map.addTilesetImage("trackTileset", "track_tiles");

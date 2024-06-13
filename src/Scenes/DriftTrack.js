@@ -21,6 +21,14 @@ class DriftTrack extends Phaser.Scene {
 
     create()
     {
+        this.velocity = 0;
+        this.checkpointsHit = 0;
+        this.TOTAL_LAPS = 3;
+        this.lap = 1;
+        this.finished = false;
+        this.started = false;
+        this.startTimer = 0;
+
         this.bgm = this.sound.add("bgm", {
             loop: true,
             rate: 1,
